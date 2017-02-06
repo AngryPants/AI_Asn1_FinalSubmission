@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Application.cpp" />
+    <ClCompile Include="Source\Attacker.cpp" />
+    <ClCompile Include="Source\Attacker_Attack.cpp" />
+    <ClCompile Include="Source\Attacker_Move.cpp" />
+    <ClCompile Include="Source\Attacker_Reload.cpp" />
+    <ClCompile Include="Source\Attacker_Run.cpp" />
+    <ClCompile Include="Source\Brawler.cpp" />
+    <ClCompile Include="Source\Brawler_Attack.cpp" />
+    <ClCompile Include="Source\Brawler_Patrol.cpp" />
+    <ClCompile Include="Source\Brawler_Run.cpp" />
+    <ClCompile Include="Source\Bullet.cpp" />
+    <ClCompile Include="Source\Character.cpp" />
+    <ClCompile Include="Source\CharacterCreated.cpp" />
+    <ClCompile Include="Source\GameManager.cpp" />
+    <ClCompile Include="Source\FPSCamera.cpp" />
+    <ClCompile Include="Source\GroundEntity.cpp" />
+    <ClCompile Include="Source\Guardian.cpp" />
+    <ClCompile Include="Source\Guardian_Follow.cpp" />
+    <ClCompile Include="Source\Guardian_Defend.cpp" />
+    <ClCompile Include="Source\Guardian_Run.cpp" />
+    <ClCompile Include="Source\Guardian_State.cpp" />
+    <ClCompile Include="Source\Gunner.cpp" />
+    <ClCompile Include="Source\Gunner_Attack.cpp" />
+    <ClCompile Include="Source\Gunner_Chase.cpp" />
+    <ClCompile Include="Source\Gunner_Patrol.cpp" />
+    <ClCompile Include="Source\Gunner_Reload.cpp" />
+    <ClCompile Include="Source\Gunner_Run.cpp" />
+    <ClCompile Include="Source\Light.cpp" />
+    <ClCompile Include="Source\main.cpp" />
+    <ClCompile Include="Source\Mesh.cpp" />
+    <ClCompile Include="Source\MeshBuilder.cpp" />
+    <ClCompile Include="Source\OBJMesh.cpp" />
+    <ClCompile Include="Source\RenderHelper.cpp" />
+    <ClCompile Include="Source\SceneAI.cpp" />
+    <ClCompile Include="Source\SceneText.cpp" />
+    <ClCompile Include="Source\GenericEntity.cpp" />
+    <ClCompile Include="Source\SpriteEntity.cpp" />
+    <ClCompile Include="Source\Support.cpp" />
+    <ClCompile Include="Source\Support_Buff.cpp" />
+    <ClCompile Include="Source\Support_Follow.cpp" />
+    <ClCompile Include="Source\Support_Heal.cpp" />
+    <ClCompile Include="Source\Support_Run.cpp" />
+    <ClCompile Include="Source\TextEntity.cpp" />
+    <ClCompile Include="Source\Turret.cpp" />
+    <ClCompile Include="Source\Turret_Attack.cpp" />
+    <ClCompile Include="Source\Turret_Idle.cpp" />
+    <ClCompile Include="Source\Turret_Reload.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Attacker_Reload.h" />
+    <ClInclude Include="Source\Brawler.h" />
+    <ClInclude Include="Source\Brawler_Attack.h" />
+    <ClInclude Include="Source\Brawler_Patrol.h" />
+    <ClInclude Include="Source\Brawler_Run.h" />
+    <ClInclude Include="Source\Bullet.h" />
+    <ClInclude Include="Source\Camera2D.h" />
+    <ClInclude Include="Source\Application.h" />
+    <ClInclude Include="Source\Attacker.h" />
+    <ClInclude Include="Source\Attacker_Attack.h" />
+    <ClInclude Include="Source\Attacker_Run.h" />
+    <ClInclude Include="Source\Attacker_State.h" />
+    <ClInclude Include="Source\Character.h" />
+    <ClInclude Include="Source\CharacterCreated.h" />
+    <ClInclude Include="Source\CharacterInfo.h" />
+    <ClInclude Include="Source\ExistingCharacterReply.h" />
+    <ClInclude Include="Source\ExistingCharacterCheck.h" />
+    <ClInclude Include="Source\Guardian_Follow.h" />
+    <ClInclude Include="Source\GameManager.h" />
+    <ClInclude Include="Source\FPSCamera.h" />
+    <ClInclude Include="Source\GenericMessage.h" />
+    <ClInclude Include="Source\GroundEntity.h" />
+    <ClInclude Include="Source\Guardian.h" />
+    <ClInclude Include="Source\Guardian_Defend.h" />
+    <ClInclude Include="Source\Guardian_State.h" />
+    <ClInclude Include="Source\Gunner.h" />
+    <ClInclude Include="Source\Gunner_Attack.h" />
+    <ClInclude Include="Source\Gunner_Chase.h" />
+    <ClInclude Include="Source\Gunner_Patrol.h" />
+    <ClInclude Include="Source\Gunner_Reload.h" />
+    <ClInclude Include="Source\Gunner_Run.h" />
+    <ClInclude Include="Source\Light.h" />
+    <ClInclude Include="Source\Mesh.h" />
+    <ClInclude Include="Source\MeshBuilder.h" />
+    <ClInclude Include="Source\Attacker_Move.h" />
+    <ClInclude Include="Source\OBJMesh.h" />
+    <ClInclude Include="Source\ProximityMessage.h" />
+    <ClInclude Include="Source\RenderHelper.h" />
+    <ClInclude Include="Source\RequestHelp.h" />
+    <ClInclude Include="Source\Guardian_Run.h" />
+    <ClInclude Include="Source\SceneAI.h" />
+    <ClInclude Include="Source\SceneText.h" />
+    <ClInclude Include="Source\GenericEntity.h" />
+    <ClInclude Include="Source\SpriteEntity.h" />
+    <ClInclude Include="Source\State.h" />
+    <ClInclude Include="Source\Support.h" />
+    <ClInclude Include="Source\Support_Buff.h" />
+    <ClInclude Include="Source\Support_Follow.h" />
+    <ClInclude Include="Source\Support_Heal.h" />
+    <ClInclude Include="Source\Support_Run.h" />
+    <ClInclude Include="Source\TestCharacter.h" />
+    <ClInclude Include="Source\TextEntity.h" />
+    <ClInclude Include="Source\Turret.h" />
+    <ClInclude Include="Source\Turret_Attack.h" />
+    <ClInclude Include="Source\Turret_Idle.h" />
+    <ClInclude Include="Source\Turret_Reload.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B172635-4E2B-46F1-A403-08F4194D00F5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Base</RootNamespace>
+    <ProjectName>Base</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/Common/Source;$(SolutionDir)/glfw/include;$(SolutionDir)/glew/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);$(SolutionDir)/glfw/lib-msvc100;$(SolutionDir)/glew/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Common.lib;winmm.lib;opengl32.lib;glu32.lib;glew32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_VARIADIC_MAX=10;WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)/Common/Source;$(SolutionDir)/glew/include;$(SolutionDir)/glfw/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)$(Configuration);$(SolutionDir)/glfw/lib-msvc100;$(SolutionDir)/glew/lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Common.lib;winmm.lib;opengl32.lib;glu32.lib;glew32.lib;glfw3.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
